@@ -1,0 +1,13 @@
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Large artifacts / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
