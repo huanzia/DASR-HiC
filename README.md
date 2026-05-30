@@ -9,6 +9,7 @@ High-resolution Hi-C data are useful for studying fine-scale chromatin organizat
 Most existing Hi-C super-resolution methods treat contact-map reconstruction as a general image restoration task and optimize all matrix entries with a globally uniform loss. However, Hi-C matrices have clear distance-dependent structures: near-diagonal contacts are usually dense and easier to recover, while long-range contacts are sparse, weak, and biologically informative.
 
 DASR-HiC addresses this issue by incorporating genomic-distance information into the reconstruction objective. The model assigns stronger supervision to off-diagonal and far-distance contacts, reducing the dominance of dense near-diagonal signals during training.
+[View overview.pdf](./overview.pdf)
 
 ## Method
 
